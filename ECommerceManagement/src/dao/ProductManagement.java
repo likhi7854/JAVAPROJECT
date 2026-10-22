@@ -8,5 +8,5 @@ public interface ProductManagement  {
     void  insertProducts(Product product);
     List<Product> getAllProduct();
     void updateProducts(Product product);
-    void deleteProducts(Product product);
+    void deleteProducts(int Product_id);
 }
