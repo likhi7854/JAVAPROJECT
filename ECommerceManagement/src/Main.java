@@ -1,7 +1,10 @@
+import Menus.ProductMenu;
+import model.Product;
 import serviceimpl.ProductServiceImpl;
 import sevices.ProductServices;
 
 import java.util.Scanner;
+import static  Menus.ProductMenu.productMenu;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,6 +12,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         ProductServices productService = new ProductServiceImpl();
+
 
         while (true) {
 
@@ -25,6 +29,13 @@ public class Main {
 
             switch (choice){
                 case 1:
+                    productMenu(sc,productService);
+                    break;
+                case 2:
+                    System.out.println("still need to update ");
+                    break;
+                default:
+                    System.out.println("invalid choice ");
 
             }
 

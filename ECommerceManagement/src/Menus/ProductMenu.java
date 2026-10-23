@@ -141,12 +141,11 @@ public class ProductMenu {
                        updateProduct.setProduct_id(id);
                        productServices.updateProducts(updateProduct);
                        break;
-
-
-
-
-
-
+                   case 4:
+                       System.out.println("Enter the product_id :");
+                       int delete_id = sc.nextInt();
+                       productServices.deleteProducts(delete_id);
+                       break;
 
                }
 
