@@ -9,6 +9,4 @@ public interface CustomerManagement {
     List<Customer> getAllCustomerDetails(Customer customer);
     void deleteCustomer(int id);
     void  updateCustomer(Customer customer);
-
-
 }

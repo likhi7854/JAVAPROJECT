@@ -1,4 +1,4 @@
-package Menus;
+package menus;
 
 import model.Product;
 import sevices.ProductServices;
@@ -11,9 +11,7 @@ public class ProductMenu {
        public static void productMenu(Scanner sc,ProductServices productServices) {
            while (true) {
 
-               System.out.println("\n================================");
-               System.out.println("      Product MANAGEMENT");
-               System.out.println("================================");
+               System.out.println("\n Product MANAGEMENT\n");
 
                System.out.println("1. Add Product");
                System.out.println("2. View Products");
@@ -120,6 +118,7 @@ public class ProductMenu {
                                System.out.println("Product status       :" + product.getStatus());
                            }
                        }
+                       productServices.getAllProduct();
 
                        break;
 
@@ -148,11 +147,6 @@ public class ProductMenu {
                        break;
 
                }
-
-
-
-
-
            }
        }
 

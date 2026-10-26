@@ -1,10 +1,8 @@
-import Menus.ProductMenu;
-import model.Product;
 import serviceimpl.ProductServiceImpl;
 import sevices.ProductServices;
 
 import java.util.Scanner;
-import static  Menus.ProductMenu.productMenu;
+import static  menus.ProductMenu.productMenu;
 
 public class Main {
     public static void main(String[] args) {

@@ -52,11 +52,15 @@ public class Customer {
         this.address = address;
     }
 
-    public Customer(String customerName, String email, String phone, String passwordHash, String address) {
+    public Customer(int customerId, String customerName, String email, String phone, String passwordHash, String address) {
         this.customerName = customerName;
         this.email = email;
         this.phone = phone;
         this.passwordHash = passwordHash;
         this.address = address;
+    }
+
+    public int getCustomerId() {
+        return customerId;
     }
 }

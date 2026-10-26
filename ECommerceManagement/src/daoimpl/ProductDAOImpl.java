@@ -4,7 +4,6 @@ import dao.ProductManagement;
 import database.Database;
 import model.Product;
 
-import javax.xml.transform.Result;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
