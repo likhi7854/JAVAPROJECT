@@ -11,8 +11,7 @@ public class ProductMenu {
        public static void productMenu(Scanner sc,ProductServices productServices) {
            while (true) {
 
-               System.out.println("\n Product MANAGEMENT\n");
-
+               System.out.println("\n PRODUCT MANAGEMENT\n");
                System.out.println("1. Add Product");
                System.out.println("2. View Products");
                System.out.println("3. Update Product");
